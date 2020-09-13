@@ -1,0 +1,23 @@
+
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6pt;
+}
+.primary-title{
+    font-size: 18pt;
+    color: black;
+}
+
+.secondary-title{
+    font-size: 15pt;
+    color: rgb(100, 100, 100);
+}
+.price{
+    font-size: 18pt;
+}
+.product img {
+    height: 180pt;
+}
