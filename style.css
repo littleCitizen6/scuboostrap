@@ -21,3 +21,58 @@
 .product img {
     height: 180pt;
 }
+body{
+    background-color: rgb(230, 230, 230);
+}
+.product{
+    background-color: white;
+    margin: 5pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.add{
+    background-color: rgb(20, 170, 200);
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10%;
+}
+.add img{
+    background-color:transparent;
+    height: 20pt;
+    align-self: center;
+}
+.nav-hebrow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.menu{
+    display: flex;
+    flex-flow: column wrap;
+}
+.search-filters{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.search-filter{
+    margin-top: 30pt;
+    justify-self: end;
+    align-self: end;
+}
+.nav-item{
+    padding: 3%;
+}
+.main-icon{
+    height: 30pt;
+}
+.form-check{
+    display: flex;
+    flex-direction: column;
+}

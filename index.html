@@ -6,66 +6,92 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 space"></div>
-            <div class="col-md-6 products">
-                <div class="row">
-                    <div class="col-md-4 product">
-                        <img src="images/trumpet.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">חצוצרה</span>
-                            <span class="secondary-title">חצוצרה ארוכה</span>
-                            <span class="price">1500₪</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img src="images/harmonica.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">מפוחית</span>
-                            <span class="secondary-title">מפוחית יפה</span>
-                            <span class="price">35₪</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img src="images/flute.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">חליל</span>
-                            <span class="secondary-title">חליל יפה</span>
-                            <span class="price">50₪</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img src="images/flute.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">כינור2</span>
-                            <span class="secondary-title">כינור קטן</span>
-                            <span class="price">2300₪</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img src="images/clarinet.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">קלרינט</span>
-                            <span class="secondary-title">קלרינט רועש</span>
-                            <span class="price">1400₪</span>
-                        </div>
-                    </div>
-                    <div class="col-md-4 product">
-                        <img src="images/trombone.jpg" class="img-fluid">
-                        <div class="product-detail">
-                            <span class="primary-title">טרומבון</span>
-                            <span class="secondary-title">טרומבון קטן</span>
-                            <span class="price">2400₪</span>
+<body onload="start()">
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="images/shopping-cart-png.jpg" class="main-icon">
+            </a>
+            <div id="navbarColor01">
+                <ul class="navbar-nav mr-auto nav-hebrow">
+                    <li class="nav-item active">
+                        <a class="nav-link one-line" href="#">דף-הבית<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item one-line">
+                        <a class="nav-link" href="#">אודות</a>
+                    </li>
+                    <li class="nav-item one-line">
+                        <a class="nav-link" href="#">כלי-נגינה</a>
+                    </li>
+                    <li class="nav-item one-line">
+                        <a class="nav-link" href="#">הפרטים-שלי</a>
+                    </li>
+                    <li class="nav-item one-line">
+                        <a class="nav-link" href="#">הזמנות-שלי</a>
+                    </li>
+                    <li class="nav-item one-line">
+                        <a class="nav-link" href="#">ניהול</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1 space"></div>
+                <div class="col-md-9 products">
+                    <div class="row products-row"></div>
+                </div>
+                <div class="col-md-2 menu">
+                    <div class="menu">
+                        <span class="primary-title">סינון</span>
+                        <div class="search-filters">
+                            <div class="dropdown search-filter">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    סוג כלי נגינה
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">חצוצרה</a>
+                                    <a class="dropdown-item" href="#">מפוחית</a>
+                                    <a class="dropdown-item" href="#">חליל</a>
+                                    <a class="dropdown-item" href="#">חצוצרה</a>
+                                    <a class="dropdown-item" href="#">חצוצרה</a>
+                                    <a class="dropdown-item" href="#">חצוצרה</a>
+                                </div>
+                            </div>
+                            <input class="search-bar search-filter" type="text" placeholder="חיפוש כלי נגינה">
+                            <div class="checkboxs search-filter">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="less-then-500">
+                                    <label class="form-check-label" for="less-then-500"> עד 500 ₪</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="between-500-1000">
+                                    <label class="form-check-label" for="between-500-1000">₪ 500-1000</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="between-1000-1500">
+                                    <label class="form-check-label" for="between-1000-1500">₪ 1000-1500</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="between-1500-2000">
+                                    <label class="form-check-label" for="between-1500-2000">₪ 1500-2000</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="over-2000">
+                                    <label class="form-check-label" for="over-2000">2000 ומעלה</label>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 menu"></div>
         </div>
-    </div>
+    </main>
 
+    <script src="scuboostrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
