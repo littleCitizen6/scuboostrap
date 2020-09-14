@@ -55,7 +55,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.scuboostrap.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/scuboostrap/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600017764193</updated>
       <workItem from="1600017765530" duration="6082000" />
-      <workItem from="1600066089073" duration="20615000" />
+      <workItem from="1600066089073" duration="34950000" />
     </task>
     <servers />
   </component>
@@ -98,14 +98,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1600111040521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600111040521" />
     <state x="552" y="178" width="816" height="729" key="#Intentions" timestamp="1600018082420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="816" height="729" key="#Intentions/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600018082420" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1600089223481">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600109942182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600089223481" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600109942182" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600067117013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
